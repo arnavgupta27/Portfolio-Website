@@ -121,4 +121,4 @@ export const navigationItems = [
 ];
 
 // Resume file name
-export const resumeFileName = "arnavresumeLatest.pdf";
+export const resumeFileName = "ArnavResume 1.pdf";
