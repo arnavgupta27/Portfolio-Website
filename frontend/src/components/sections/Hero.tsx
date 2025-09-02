@@ -51,8 +51,8 @@ const Hero: React.FC<HeroProps> = ({ personalInfo, phrases }) => {
 
   const handleResumeDownload = () => {
     const link = document.createElement('a');
-    link.href = '/arnavresumeLatest.pdf';
-    link.download = 'arnavresumeLatest.pdf';
+    link.href = '/ArnavResume 1.pdf';
+    link.download = 'ArnavResume 1.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
